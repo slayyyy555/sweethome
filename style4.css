@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,594;1,594&display=swap');
+
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.apie_mus .video {
+    margin-left:70px;
+    opacity: 0.4;
+    margin-top: 70px;
+}
+
+.apie_mus {
+    position: relative;
+  }
+  
+  .apie_mus .text1 h1,
+  .apie_mus .text2 p,
+  .apie_mus .text2 h3{
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .apie_mus .text1 h1 {
+    top: 100px;
+    left: 360px;
+    font-size: 80px;
+  }
+  
+  .apie_mus .text2 h3 {
+    top: 280px;
+    left: 500px;
+    font-size: 50px;
+    color: rgb(181, 107, 210);
+  }
+  
+  .apie_mus .text2 p {
+    top: 430px;
+    left: 363px;
+    width: 50%;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .pagrindinis {
+    display: flex;
+    gap: 71px;
+    margin-top: 75px;
+    margin-left: 400px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pagrindinis .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.4s;
+    font-size: 25px;
+}
+
+.pagrindinis .nav-link:hover {
+    background-color: rgb(122, 37, 155);
+    border: 1px solid rgb(122, 37, 155);
+}
+
+.pagrindinis .nav-link.active {
+    background-color: rgb(122, 37, 155);
+    border: 1px solid rgb(122, 37, 155);
+}
+
+#paws {
+ position: relative;
+ right: 880px;
+ bottom: -3px;
+ width: 50px;
+
+}
+
+#pets {
+    position: relative;
+    right: 530px;
+    bottom: 4px;
+    width: 50px;
+
+}
+
+#phone {
+    position: relative;
+    right: 380px;
+    bottom: 14px;
+    width: 30px;
+
+}
+
+#paw {
+    position: relative;
+    right: 680px;
+    bottom: 14px;
+    width: 30px;
+   
+}
+
+.blokai {
+    display: flex;
+    color: white;
+    gap: 40px;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.blokas1, .blokas2, .blokas3, .blokas4 {
+    text-align: center;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.klausimai {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.klausimai button {
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 400px;
+    background-color: rgb(224, 224, 224);
+    transition: 0.3s all;
+}
+
+.klausimai button:hover{
+    color: rgb(167, 87, 199);
+    transition: 0.3s all;
+}
+
+.klausimai .content {
+    text-align: center;
+}
+
+.klausimai h3 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content {
+ max-height: 0;
+ overflow: hidden;
+ padding: 0 1em;
+ background: #9550a6;
+ transition: max-height 0.3s ease, padding 0.3s ease;
+ margin: 0 400px;
+ }
+
+ .content.open {
+    padding: 1em;
+    max-height: 200px; /* adjust as needed */
+  }
+
+  .active-nav {
+    border: 1px solid rgb(122, 37, 155);
+    background-color: rgb(122, 37, 155);
+}
